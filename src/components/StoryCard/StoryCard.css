@@ -1,0 +1,25 @@
+.storycard {
+  padding: 10px;
+  height: 120px;
+  background-color: whitesmoke;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.story-image {
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}

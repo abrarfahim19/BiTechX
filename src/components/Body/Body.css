@@ -1,0 +1,9 @@
+.body {
+  background-color: #18191a;
+  /* height: 1000px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}

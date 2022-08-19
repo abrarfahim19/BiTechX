@@ -1,0 +1,25 @@
+.author-card {
+  width: 600px;
+  height: 80px;
+  background-color: #242526;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.card-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
