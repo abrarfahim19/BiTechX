@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './StoryCard.css';
 import storyImage from '../../props/storyImage.png'
 import avatar from '../../props/avatar.png'
@@ -6,19 +6,19 @@ import {MdOutlineTravelExplore} from "react-icons/md"
 
 const StoryCard = () => {
     return (
-        <div className="storycard">
+        <div style={{textDecoration:"none"}} className="storycard">
             <div className="story-details">
-                <h3>This text is for our article title , sometime it is quite long and like this</h3>
+                <h3 style={{color:"black"}}>This text is for our article title , sometime it is quite long and like this</h3>
                 <div style={{display:"flex", justifyContent:"space-between", alignItems:"center", paddingTop:"10px"}}>
                     <div className='author'>
                         <div className='author-img'>
                             <img src={avatar} alt="" style={{height:"30px", width:"30px", borderRadius:"50%"}} />
                         </div>
-                        <p style={{fontWeight:"normal"}}>Michel Scott</p>
+                        <p style={{fontWeight:"normal", color:"black"}}>Michel Scott</p>
                     </div>
                     <div style={{display:"flex", justifyContent:"center",gap:"5px", alignItems:"center"}}> <MdOutlineTravelExplore style={{color:"royalblue"}}/> <span><a href="#" style={{textDecoration:"none", color:"royalblue", fontWeight:"bold"}}>Travel to Explore</a></span></div>
                 </div>
-                <hr />
+                <hr style={{color:"black"}}/>
                 <p style={{fontWeight:"lighter", fontSize:"12px"}}>Nov 4, 2019| 2 min read <span style={{fontWeight:"bold", color:"gray", marginLeft:"5px"}}>#Website #Design #Dev_Web</span></p>
             </div>
             <div style={{width: "200px",height: "120px"}}>
